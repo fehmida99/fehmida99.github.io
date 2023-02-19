@@ -11,6 +11,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
+    width: 100%;
 
 }
 :root{
@@ -27,11 +28,15 @@
     --p-font: 1.1rem;
     /* width: 100%; */
 
-
-    
-
-
 }
+
+#user-detail-name{
+    border: 0px solid red;
+}
+
+
+
+
 body{
     /* background: var(--bg-color); */
     background: var(--bg-color);
