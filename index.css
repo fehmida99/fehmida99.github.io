@@ -11,7 +11,7 @@
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
-    width: 100%;
+    /* width: 100%; */
 
 }
 :root{
@@ -102,7 +102,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url("images/banner-lap.png");
+    background-image: url("images/Banner.png");
 
     background-size: cover;
     background-position: center;
@@ -190,7 +190,7 @@ header.sticky{
     grid-template-columns: repeat(2,1fr);
     align-items: center;  
     /* background: rgb(207, 222, 233); */
-    background: rgb(22, 32, 80);;
+    background: rgb(22, 32, 80);
     /* background: url("/images/laptop-stone.avif"); */
 }
 .about-img img{
@@ -225,7 +225,7 @@ header.sticky{
 /* skills section style--- ---------------------------- */
 
 #skills{
-    background:rgb(1, 28, 46); ;
+    background:rgb(1, 28, 46); 
 }
 .main-text{
     text-align: center;
@@ -331,7 +331,7 @@ header.sticky{
 } */
 #nav-link-projects{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(850px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(400px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
@@ -343,7 +343,7 @@ header.sticky{
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
-    height: 500px;
+    /* height: 500px; */
     background: #111;
 }
 .project-card img{
@@ -355,7 +355,8 @@ header.sticky{
 .layer{
     width: 100%;
     height: 0;
-    background: linear-gradient(rgba(0,0,0,0.1),teal);
+    background: rgb(22, 32, 80);
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgb(1, 28, 46)); */
     position:absolute;
     border-radius: 8px;
     left: 0;
@@ -393,6 +394,7 @@ header.sticky{
 }
 .project-card:hover img{
     transform: scale(1.1);
+    
 }
 .project-card:hover .layer{
     height: 100%;
@@ -733,5 +735,78 @@ header.sticky{
 
 
 
+   /* Project Section  */
 
+  #projectextra{
+    height: 100px;
+    background-color: var(--bg-color);
+  }
+
+  .projects-title{
+    color: var(--white);
+    text-align: center;
+  }
+
+  #container-1 {
+    position: relative;
+    text-align: center;
+    color: var(--white);
+    padding: 5%;
+  }
+
+  .glass {
+    width: 43%;
+    height: auto;
+    background-color: var(--darkbgcolor); 
+    position: absolute;
+    top: 28%;
+    padding: 1.5%;
+  }
+
+  #links {
+    color: var(--white);
+    margin-right: 1%;
+    padding: 4px 8px;
+    border: 1px solid var(--bg-color);
+    display: inline;
+    background-color: var(--blue);
+    border-radius: 50% 0% 50% 0%;
+    font-size: 14px;
+  }
+
+  #links:hover{
+    background-color: var(--hover);
+    
+  }
+
+  .img1{
+    margin-top: 1%;
+    margin-left: 40%;
+    width: 60%;
+  }
+
+  #container-1 #parahead{
+    font-weight: var(--bolder-font);
+    margin-bottom: 1%;
+  }
+
+  #para{
+    color: var(--text-color);
+    align-content:  space-between;
+    margin-bottom: 2%;
+    font-size: 14px;
+  }
+
+  #tech {
+    font-weight: var(--bolder-font);
+    margin-bottom: 1%;
+    margin-top: 2%;
+    width: 80%;
+    height: 35px;
+  }
+
+  .projects {
+    background-color: var(--bg-color);
+  }
+  
   
