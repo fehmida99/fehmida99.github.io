@@ -682,19 +682,19 @@ header.sticky{
 }
 
 
-#home .nav-link-home.text-1 {
+#home #nav-link-home.text-1 {
     font-size: 127px;
   }
-  #home .nav-link-home.text-2 {
+  #home #nav-link-home.text-2 {
     font-size: 75px;
     font-weight: 600;
     margin-left: -3px;
   }
-  #home .nav-link-home.text-3 {
+  #home #nav-link-home.text-3 {
     font-size: 40px;
     margin: 5px 0;
   }
-  #home .nav-link-home.text-3 span {
+  #home #nav-link-home.text-3 span {
     /* color: crimson; */
     font-weight: 500;
   }
