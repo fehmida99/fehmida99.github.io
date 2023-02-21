@@ -240,13 +240,13 @@ header.sticky{
     font-size: var(--h2-font);
     line-height: 1;
 }
-.nav-link-skills{
+/* .nav-link-skills{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, auto));
     align-items: center;
     gap: 2.5rem;
     margin-top: 5rem;
-}
+} */
 
 
 .skills-card{
@@ -731,7 +731,13 @@ header.sticky{
     width: 100px;
   }
 
-
+#skill-deco{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,auto));
+    align-items: center;
+    gap: 2.5rem;
+    margin-top:3rem ;
+}
 
 
 
