@@ -102,7 +102,7 @@ section{
     position: relative;
     height: 100vh;
     width: 100%;
-    background-image: url("images/Banner.png");
+    background-image: url("images/bannn.jpg");
 
     background-size: cover;
     background-position: center;
@@ -192,6 +192,7 @@ header.sticky{
     /* background: rgb(207, 222, 233); */
     background: rgb(22, 32, 80);
     /* background: url("/images/laptop-stone.avif"); */
+    
 }
 .about-img img{
     border: 0px solid crimson;
@@ -199,8 +200,9 @@ header.sticky{
     height: auto;
     width: 80%;
     border-radius: 4%;
-    align-items: end;
-   
+    /* align-items: end; */
+    align-items: center;
+    /* margin-left: 10%; */
     
 }
 
@@ -815,4 +817,4 @@ header.sticky{
     background-color: var(--bg-color);
   }
   
-  
+ 
