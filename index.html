@@ -41,7 +41,15 @@
             <li><a  id="resume-link-1" class="nav-link resume" href="https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link" download
             onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')" download="" target="_blank" >Resume</a></li> 
             </div>
-          
+
+
+            <!-- <button id="resume-button-1" onclick="resume()" class="nav-link resume btn btn2">
+                <a id="resume-link-1" download href="./images/Fehmida_Shaikh_Resume.pdf" target="_blank" >Resume</a>
+              </button>
+           -->
+
+
+
             </ul>
 
         </ul>
@@ -106,6 +114,7 @@
                 </div>
         
     </section>
+    <!-- nav-link skills -->
 
     <!-- --------Skills section design  -->
     <section  id="skills"> 
@@ -265,14 +274,33 @@
               <img class = "ht1" id="github-top-langs" src='https://github-readme-stats.vercel.app/api/top-langs/?username=fehmida99&theme=dark&hide_border=false&include_all_commits=true&count_private=false&layout=compact' >
           </div>
         </div>
-        <div id="calendar" class="react-activity-calendar">
+        <!-- <div id="calendar" class="react-activity-calendar">
           <img style="display: block; margin: auto; margin-top: 40px; width: 100%;" src="https://ghchart.rshah.org/fehmida99" alt="fehmida99's Github chart" />
+        </div> -->
+
+        <div>
+            <script src="https://unpkg.com/github-calendar@latest/dist/github-calendar.min.js"></script>
+            <link rel="stylesheet" href="https://unpkg.com/github-calendar@latest/dist/github-calendar-responsive.css"/>
+    
+            <div class="calendar react-activity-calenda">
+            Loading the data just for you.
+            </div>
+    
+            <script>
+            GitHubCalendar(".calendar", "fehmida99");
+            // or enable responsive functionality
+            GitHubCalendar(".calendar", "fehmida99", { responsive: true });
+            </script>
         </div>
+
+
+
+
   </div>      
 </section>
 
      <!-- Project section design  -->
-     <section id="projects">
+     <!-- <section id="projects">
         <div class="main-text">
     
             <h2><span>Latest </span>Projects</h2>
@@ -383,6 +411,141 @@
         </div>
 
      </section>
+ -->
+
+      <!-- Projects -->
+    <div id="projects">
+        <div class="container">
+          <!-- <h1 class="sub-title">Projects</h1> -->
+           <br><br><br><br><br><br>
+          <div class="main-text">
+    
+            <h2><span>Latest </span>Projects</h2>
+
+        </div>
+    <br><br>
+
+          <!-- <h2><span>Latest </span>Projects</h2> -->
+          <div class="projects">
+            <div class="project-card">
+              <img style="height: 360px; width: 600px;" src="./images/SAFAR.com.png" alt="" />
+              <br>
+              <h2 class="bold project-title">Online Trip Management System</h2>
+              <p class="bold project-description">
+                SAFAR.com is an Online Trip Management Platform where a customer 
+                can book a flight and bus for their trip to booking the hotels. 
+                It is a Collabrative Project Consisting Of the 4 Developer Depicting the implementation
+                 of the Trip Managment Platform like MakeMyTrip or Yatra.
+                An developement of RESTful API for an application. This API performs all the fundamental 
+                 CRUD operations of any with user validation at every step.
+                
+              </p>
+              <h4>A Collborative Project built by team of 4 members within 5 days.</h4>
+              <p class="project-tech-stack">
+                <b>Tech Stack: </b> Java | SpringBoot |Spring Security | Spring Framework | Spring Data JPA | Hibernate | MySQL |  Maven
+                
+                
+               
+                
+              </p>
+              <div class="buttons">
+                <button>
+                  <a class="project-github-link" target="_blank" href="https://github.com/Siddharth263/nippy-needle-3633">Code</a><i class="fa-brands fa-github"></i>
+                </button>
+                <button>
+                  <a class="project-deployed-link" target="_blank" href="https://drive.google.com/file/d/1iYBUk=share_link">Live</a
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img style="height: 360px; width: 600px;" src="./images/CRIME COUNTER.png" alt="" />
+              <br>
+              <h2 class="bold project-title">Crime Information Managment System</h2>
+              <p class="bold project-description">
+                Crime Counter is a crime Information Management System that eases 
+                storing of crime information. It can store details regarding Crime, 
+                Criminals, Suspects, and Victims.
+                <ul>
+                  <li>Features<ul>
+                    <li>Register a crime</li>
+                    <li>Add new Police Station</li>
+                    <li>Get all past crime history</li>
+                  </ul></li>
+                </ul>
+              </p>
+              <h4>An Indiviudal Project completed within 5 days.</h4>
+              <p class="project-tech-stack">
+                <b>Tech Stack: </b> Java | JDBC | MySQL
+              </p>
+              <div class="buttons">
+                <button>
+                  <a class="project-github-link" target="_blank" href="https://github.com/fehmida99/new-berry-436">Code</a><i class="fa-brands fa-github"></i>
+                </button>
+                <button>
+                  <a class="project-deployed-link" target="_blank" href="https://drive.google.com/file/d/ew?usp=share_link">Live</a
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="./images/Media_Flow.png" alt="" />
+              <br>
+              <h2 class="bold project-title">Buffer.com - Clone</h2>
+              <p class="bold project-description">
+                Buffer.com is designed to manage and schedule posts on social
+                media as well as analyze their results and engage with the
+                community.
+              </p>
+              <h4>A Collborative Project built by team of 5 members within 5 days.</h4>
+              <p class="project-tech-stack">
+                <b>Tech Stack: </b>  HTML | CSS | Javascript
+              </p>
+              <div class="buttons">
+                <button>
+                  <a class="project-github-link" target="_blank" href="https://github.com/fehmida99/Buffer.com-Clone">Code</a><i class="fa-brands fa-github"></i>
+                </button>
+                <button>
+                  <a class="project-deployed-link" target="_blank" href="https://buffer.com/">Live</a
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </button>
+              </div>
+            </div>
+            <div class="project-card">
+              <img src="./images/Digital Express.png" alt="" />
+              <br>
+              <h2 class="bold project-title">Reliance Digital - Clone</h2>
+              <p class="bold project-description">
+                An E-commerce website for electronic gadgets whwere customer can buy electronicsgadets like
+                Fridge,WashingMachine,Laptop etc.
+              </p>
+              <h4>An Indiviudal Project executed within 5 days.</h4>
+              <p class="project-tech-stack">
+                <b>Tech Stack: </b> Javascript | HTML | CSS
+              </p>
+              <div class="buttons">
+                <button>
+                  <a class="project-github-link" target="_blank" href="https://github.com/ramsarraf11/Airtable-Clone">Code</a><i class="fa-brands fa-github"></i>
+                </button>
+                <button>
+                  <a class="project-deployed-link" target="_blank" href="https://overjoyed-class-89.vercel.app/">Live</a
+                  ><i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </button>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+
 
 
 

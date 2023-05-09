@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Ubuntu&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Ubuntu&display=swap'); */
 
 
 
@@ -817,4 +816,61 @@ header.sticky{
     background-color: var(--bg-color);
   }
   
- 
+ /* ********** */
+ .projects {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    line-height: 1.4;
+    background-color: var(--bg-color);
+    width: 90%;
+    margin: auto;
+  }
+  .project-card {
+    background-color: rgb(11, 0, 0);
+    border-radius: 2%;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 8px 6px -6px black;
+  }
+  .project-card > p {
+      margin: 10px 0;
+  }
+  .projects img {
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    gap: 20px;
+    cursor: pointer;
+    margin: 10px 0;
+  }
+  .buttons button {
+    padding: 10px;
+    color: white;
+    background: rgb(236, 9, 9);
+    font-size: 17px;
+    border-radius: 10px;
+    border: none;
+  }
+  .buttons button > a,
+  .buttons button > a:visited {
+    text-decoration: none;
+    color: white;
+  }
+  .fa-brands,
+  .fa-solid {
+    margin-left: 10px;
+  }
+  .bold{
+      font-weight: 600;
+  }
+  @media only screen and (min-width: 350px) and (max-width: 840px){
+      .projects{
+          grid-template-columns: repeat(1,1fr);
+      }
+      .buttons{
+          justify-content: center;
+          flex-direction: column;
+      }
+  }
