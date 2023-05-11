@@ -27,26 +27,30 @@
 <body>
 
     
-  
-<header id="nav-menu">
-        <a href="#" class="logo"> Feh <span> mida </span></a>
+<!-- uncomment part -->
+    <!-- header design -->
+    <header id="nav-menu">
+        <a href="#" class="logo";> Feh<span>mida </span></a>
         <ul class="navlist">
             <li><a href="#home" class="active"> Home</a></li>
             <li><a href="#about"> About</a></li>
             <li><a href="#skills"> Skills</a></li>
             <li><a href="#projects"> Projects</a></li>
-            <li><a href="#githubs" > GitHub</a></li>
+            <!-- <li><a href="#githubs" ></a> Statistics</a></li> -->
             <li><a href="#contact"> Contact</a></li>
-            <!-- <li> -->
-                <!-- <button id="resume-button-1" onclick="window.open('https://drive.google.com/file/d/1qHGUfyzCZpWwPCLKIIJxZzLu07ItXL84/view')">
-                    <a  href="./files/Shahid-Afridi-Resume.pdf" download
-                    id="resume-link-1" class="nav-link resume" >Resume</a></button>
-                </li> -->
-                <li >
-                    <button id="resume-button-1"  class="nav-link resume" onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')">
-                        <a  id="resume-link-1" href="./images/Fehmida_Shaikh_Resume.pdf" download>Resume</a>
-                    </button>
-                </li>
+            <!-- <div id="resume-button-1">
+            <li><a  id="resume-link-1" class="nav-link resume" href="https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link" download
+            onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')" download="" target="_blank" >Resume</a></li>
+            </div> -->
+            <li >
+                <button id="resume-button-1"  class="nav-link resume" onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')">
+                    <a  id="resume-link-1" href="./images/Fehmida_Shaikh_Resume.pdf" download>Resume</a>
+                </button>
+            </li>
+            <!-- <button id="resume-button-1" onclick="resume()" class="nav-link resume btn btn2">
+                <a id="resume-link-1" download href="./images/Fehmida_Shaikh_Resume.pdf" target="_blank" >Resume</a>
+              </button>
+           -->
             </ul>
         </ul>
         <div class="bx bx-menu" id="menu-icon">
@@ -54,44 +58,64 @@
     </header>
     <!-- home section design -->
     <section id="home" >
-        <div class="nav-link home">
-            <div class="slide">
+        <div id="nav-link-home" class="nav-link home">
+            <!-- <div class="slide">
                 <span class="one">Hello</span>
                 <span class="two">I'm</span>
             </div>
-            <h1 id="user-detail-name">Fehmida</h1>
-            <h3 id="user-detail-skill">Java Backend <span>Developer.</span></h3>
+            <h1 id="user-detail-name">Fehmida Shaikh</h1>
+            <h3>Java Backend <span>Developer.</span></h3> -->
             <!-- <p>Lorem ipsum dolor olorum earum magni veniam! Iste hic minima minus cumque libero.</p> -->
-            <br>
-                <div >
-                    <button id="resume-button-2"  class="nav-link resume" onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')">
-                        <a  id="resume-link-2" href="./images/Fehmida_Shaikh_Resume.pdf" download>Resume</a>
-                    </button>
-                </div>
+            <div class="text-1" style="font-size: 30px; ">Hello, my name is</div>
+            <div id="user-detail-name" style="font-size: 42px;"><h2>Fehmida Shaikh </h2> </div>
+            <div class="text-3" style="font-size: 40px;">And I'm a <span class="typing"></span></h2> </div>
+            <br><br>
+            <div>
+                <button id="resume-button-2"  class="nav-link resume" onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')">
+                    <a  id="resume-link-2" href="./images/Fehmida_Shaikh_Resume.pdf" download>Resume</a>
+                </button>
+            </div>
         </div>
+        <!-- <button id="resume-button-2"><a id="resume-link-2" href="https://drive.google.com/file/d/1_G-WJpThnT5PZkSM8HDszTr0PI_YEvI4/view?usp=share_link" download="pdf">My Resume</a></button> -->
     </section>
+
+
+
+
     <!-- --------about section design  -->
     <section class="about section" id="about">
         <!-- <div class="nav-link-about"> -->
         <div class="about-img">
-            <img class="home-img" src="/image/photo.png.jpeg" alt="">
+            <img class="home-img" src="/images/Photo.png" alt="">
         </div>
+
         <div class="nav-link about">
-            <h1>About <span>Me</span></h1>
-            <h2 id="user-detail-name">I'm <span>Shahid Afridi</span> from Kolkata, WestBengal</h2>
-            <h4>Java Backend Developer</h4>
-            <p id="user-detail-intro">An enthusiastic Java Backend Developer with excellent
-                hands-on experience in developing scalable websites and
-                application using a wide range of front-end and back-end
-                skills like HTML, CSS, JavaScript and Java. Highly skilled in
-                design, development and implementation of functional
-                specifications, Ready for taking challenging roles..</p>
+            <h2 style="font-size: 50px;">About <span>Me</span></h2>
+            <br>
+            <br>
+           
+            <!-- <div class="text" style="font-size: 30px;margin-left: 2%;">I'm Fehmida and I'm a <span class="typing-2"></span></div> -->
+            <!-- <h4>Java Backend Developer</h4> -->
+            <!-- <br>
+            <br> -->
+            <p id="user-detail-intro" style="font-size:20px ;">A self-motivated, hardworking,
+                 Java Backend Developer with a specialization in Java, Spring Boot, SQL,
+                REST APIs, Hibernate, JDBC, Git/Github, 
+                AWS, HTML, CSS, Javascript, Object-oriented,
+                Proficient in creating servers and databases, designing,
+                developing responsive websites. Ready to develop her skills and
+                contribute to the growth of the organization.</p>
                  <!-- <a href="#" class="btn">Netlify</a> -->
-                <button style="font-size: 20px; "> <a id="resume-button-2" style="color: white;background-color:crimson ; " href="/Shahid_Afridi_Resume.pdf" target="_blank">resume</a>
-                </button>
-            </div>
+                 <!-- <a href="https://github.com/fehmida99" target="_blank" class="btn">GitHub</a> -->
+     
+                </div>
+        
     </section>
-    <!-- --------Skills section design  -->
+    <!-- nav-link skills -->
+
+
+
+
     <section id="skills">
         <div class="main-text">
             <h2><span>My </span>Skills</h2>
@@ -166,147 +190,6 @@
 
 
 
-
-
-
-
-
-
-
-<!-- uncomment part -->
-    <!-- header design -->
-
-    <!-- <header id="nav-menu">
-        <a href="#" class="logo";> Feh<span>mida </span></a>
-        <ul class="navlist">
-            <li><a href="#home" class="active"> Home</a></li>
-            <li><a href="#about"> About</a></li>
-            <li><a href="#skills"> Skills</a></li>
-            <li><a href="#projects"> Projects</a></li>
-          
-            <li><a href="#contact"> Contact</a></li>
-           
-            <li >
-                <button id="resume-button-1"  class="nav-link resume" onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')">
-                    <a  id="resume-link-1" href="./images/Fehmida_Shaikh_Resume.pdf" download>Resume</a>
-                </button>
-            </li>
-           
-            </ul>
-        </ul>
-        <div class="bx bx-menu" id="menu-icon">
-        </div>
-    </header>
-   
-    <section id="home" >
-        <div id="nav-link-home" class="nav-link home">
-          
-            <div class="text-1" style="font-size: 30px; ">Hello, my name is</div>
-            <div id="user-detail-name" style="font-size: 42px;"><h2>Fehmida Shaikh </h2> </div>
-            <div class="text-3" style="font-size: 40px;">And I'm a <span class="typing"></span></h2> </div>
-            <br><br>
-            <div>
-                <button id="resume-button-2"  class="nav-link resume" onclick="window.open('https://drive.google.com/file/d/1iJMHdZ6QeGq9yw8pHQkvRwKlUmAss_no/view?usp=share_link')">
-                    <a  id="resume-link-2" href="./images/Fehmida_Shaikh_Resume.pdf" download>Resume</a>
-                </button>
-            </div>
-        </div>
-       
-    </section>
-
-
-
-
-    <section class="about section" id="about">
-        <div class="about-img">
-            <img class="home-img" src="/images/Photo.png" alt="">
-        </div>
-
-        <div class="nav-link about">
-            <h2 style="font-size: 50px;">About <span>Me</span></h2>
-            <br>
-            <br>
-           
-         
-            <p id="user-detail-intro" style="font-size:20px ;">A self-motivated, hardworking,
-                 Java Backend Developer with a specialization in Java, Spring Boot, SQL,
-                REST APIs, Hibernate, JDBC, Git/Github, 
-                AWS, HTML, CSS, Javascript, Object-oriented,
-                Proficient in creating servers and databases, designing,
-                developing responsive websites. Ready to develop her skills and
-                contribute to the growth of the organization.</p>
-            
-     
-                </div>
-        
-    </section>
-
-
-
-    <section id="skills">
-        <div class="main-text">
-            <h2><span>My </span>Skills</h2>
-            <p>What I am Expert In</p>
-        </div>
-        <div class="nav-link skills" id="skills-part">
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <i style="font-size: 100px;" class='bx bxl-java' ></i>
-                </div>
-                <h3 class="skills-card-name">Java</h3>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <i style="font-size: 100px;" class='bx bxl-javascript' ></i>
-                </div>
-                <h3 class="skills-card-name">JavaScript</h3>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <i style="font-size: 100px;" class='bx bxl-html5' ></i>
-                </div>
-                <h3 class="skills-card-name">HTML</h3>
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <i style="font-size: 100px;" class='bx bxl-css3' ></i>
-                </div>
-                <h3 class="skills-card-name">CSS</h3>
-              
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <i style="font-size: 100px;" class='bx bx-sushi'  ></i>
-                </div>
-                
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <i style="font-size: 100px;" class='bx bxl-spring-boot' ></i>
-                </div>
-                <h3 class="skills-card-name">Spring boot</h3>
-             
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <i style="font-size: 100px;" class="fas fa-database" ></i>
-                </div>
-                <h3 class="skills-card-name">RDBMS</h3>
-                
-               
-            </div>
-            <div class="skills-card">
-                <div class="skills-card-img">
-                    <i style="font-size: 100px;" class="fa-solid fa-cubes" ></i>
-                </div>
-                <h3 class="skills-card-name">DSA</h3>
-                
-            </div>
-        </div>
-    </section>
-
-
- -->
 
 
 
