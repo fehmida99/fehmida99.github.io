@@ -44,6 +44,26 @@ body{
    
 }
 
+
+/* RESUME SECTION*/
+
+#resume-button-1{
+background-color: black;
+}
+
+#resume-button-2{
+padding: 15px 30px 15px 30px;
+background-color: rgb(194, 17, 17);
+border: #fff;
+font-size: 20px;
+}
+#resume-link-2{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 23px;
+}
+
+
 header{
     position: fixed;
     width: 100%;
@@ -874,3 +894,7 @@ header.sticky{
           flex-direction: column;
       }
   }
+
+
+
+
