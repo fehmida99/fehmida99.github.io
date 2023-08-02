@@ -21,7 +21,7 @@ window.onscroll = () => {
   // typing text animation script
   // typing text animation script
   var typed = new Typed(".typing", {
-    strings: ["Java Backend Developer", "Coder","Biotechnologist","Food Technologist", "YouTuber"],
+    strings: ["Java Backend Developer", "Coder","Software Engineer","Biotechnologist","Food Technologist", "YouTuber"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
